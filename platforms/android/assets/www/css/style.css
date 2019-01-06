@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'VarelaRound';
+    src: url('../fonts/VarelaRound-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+html {
+    direction: rtl;
+}
+
+body {
+    font-family: 'VarelaRound';
+    color: black;
+    background-color: #f7f7f7;
+}
+
+.gradesForm {
+    padding: 7%;
+}
+
+.sendGradesBtnWrapper {
+    position: relative;
+    top: 1%;
+    text-align: center;
+}
+
+.sendGradesBtn {
+    margin: auto;
+    display: block;
+}
+
+label {
+    margin-top: 4%;
+}
+
+.itemToBuy {
+font-size: 16px;
+    background-color: white;
+}
+
+.xIcon {
+    color: red;
+    float: left;
+    margin-left: 6%;
+}
+
+.thumbnail {
+    display: block;
+    line-height: 1.42857143;
+    margin: 5%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 0%;
+}
+
+.paperWrapper {
+}
+
+.qantityTD {
+    width: 9%;
+    text-align: center;
+    margin-right: 20px;
+    padding-right: 2%;
+}
+
+.quantity {
+    padding: 0px 4px;
+}
+
+.qantityTD .fa{
+font-size: 30px;
+    color: gainsboro;
+    display: block;
+    text-align: center;
+    margin-top: 9%;
+}
+
+#fullList {
+    border-collapse: separate;
+    border-spacing: 0.5em;
+    -webkit-border-horizontal-spacing: 0;
+    width: 100%;
+}
+
+.itemName {
+    font-size: 18px;
+        display: -webkit-box;
+            margin-top: 6%;
+}
+
+.picTD {
+    width: 33%;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    cursor: not-allowed;
+    background-color: white;
+    opacity: 1;
+    text-align: center;
+}
